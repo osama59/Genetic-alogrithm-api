@@ -32,12 +32,10 @@ def fitness(genome):
     # If all 5 items are from the same category, we penalize the score to encourage variety.
     categories = [p["category"] for p in genome]
     unique_categories = len(set(categories))
-
     if unique_categories == 1:
         total_score -= 15  # Heavy penalty for being boring
     elif unique_categories >= 3:
         total_score += 10  # Bonus for high variety
-
     return total_score
 
 
@@ -76,52 +74,34 @@ def mutate(genome, products_data):
 
 
 def run_genetic_algorithm(products_data, user_profile):
-
     genome_length = 5
-
     population_size = len(products_data) // genome_length
-
     population = init_population(products_data, population_size, genome_length)
-
     fitness_values = []
 
     for generation in range(GENERATIONS):
-
         fitness_values = [fitness(genome) for genome in population]
-
         new_population = []
-
         for _ in range(population_size // 2):
-
             parent1 = select_parent(population, fitness_values)
             if parent1 is None:
                 parent1 = random.choice(population)
-
             parent2 = select_parent(population, fitness_values)
             if parent2 is None:
                 parent2 = random.choice(population)
-
             parent1 = copy.deepcopy(parent1)
-
             parent2 = copy.deepcopy(parent2)
-
             offspring1, offspring2 = crossover(parent1, parent2, genome_length)
-
             new_population.extend(
                 [
                     mutate(offspring1, products_data),
                     mutate(offspring2, products_data),
                 ]
             )
-
         population = new_population
-
         fitness_values = [fitness(genome) for genome in population]
-
     best_fitness = max(fitness_values)
-
     best_index = fitness_values.index(best_fitness)
-
     best_solution = [product["id"] for product in population[best_index]]
 
     return best_solution

@@ -1,22 +1,22 @@
 from fastapi import FastAPI, Body, Depends, HTTPException, Header
 from genetic_algorithm import run_genetic_algorithm
-# import os
-# from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
 
 app = FastAPI()
 
-# load_dotenv()
+load_dotenv()
 
-# API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_KEY")
 
-# if not API_KEY:
-#     print("WARNING: API_KEY environment variable not set")
+if not API_KEY:
+    print("WARNING: API_KEY environment variable not set")
 
 
 @app.post("/recommend")
-async def get_recommendations(payload: dict = Body(...)):#, api_key: str = Header(...)):
-    # if api_key != API_KEY:
-    #     raise HTTPException(status_code=401, detail="Invalid API Key")
+async def get_recommendations(payload: dict = Body(...), api_key: str = Header(...)):
+    if api_key != API_KEY:
+        raise HTTPException(status_code=401, detail="Invalid API Key")
 
     user_profile = payload.get("user_profile")
     product_pool = payload.get("products")
