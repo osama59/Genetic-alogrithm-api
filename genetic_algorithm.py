@@ -8,14 +8,11 @@ GENERATIONS = 500
 
 def init_population(products_data, population_size, genome_length):
     population = [
-        products_data[i * genome_length : (i + 1) * genome_length]
-        for i in range(population_size - 1)
-    ]
-    mutation_pool = products_data[
-        (population_size - 1) * genome_length : (population_size) * genome_length
+        copy.deepcopy(products_data[i * genome_length : (i + 1) * genome_length])
+        for i in range(population_size)
     ]
 
-    return population, mutation_pool
+    return population
 
 
 def fitness(genome):
@@ -67,48 +64,64 @@ def crossover(parent1, parent2, genome_length):
         return parent1, parent2
 
 
-def mutate(genome, mutation_pool):
+def mutate(genome, products_data):
     for i in range(len(genome)):
         if random.random() < MUTATION_RATE:
-            old_product = genome[i]
-            new_product = random.choice(mutation_pool)
-            genome[i] = new_product
-            mutation_pool.remove(new_product)
-            mutation_pool.append(old_product)
+            # Pick a random product not already in genome
+            new_product = random.choice(products_data)
+            while new_product["id"] in [p["id"] for p in genome]:
+                new_product = random.choice(products_data)
+            genome[i] = copy.deepcopy(new_product)
     return genome
 
 
 def run_genetic_algorithm(products_data, user_profile):
+
     genome_length = 5
+
     population_size = len(products_data) // genome_length
 
-    population, mutation_pool = init_population(
-        products_data, population_size, genome_length
-    )
+    population = init_population(products_data, population_size, genome_length)
+
+    fitness_values = []
 
     for generation in range(GENERATIONS):
+
         fitness_values = [fitness(genome) for genome in population]
 
         new_population = []
+
         for _ in range(population_size // 2):
+
             parent1 = select_parent(population, fitness_values)
+            if parent1 is None:
+                parent1 = random.choice(population)
+
             parent2 = select_parent(population, fitness_values)
+            if parent2 is None:
+                parent2 = random.choice(population)
 
             parent1 = copy.deepcopy(parent1)
+
             parent2 = copy.deepcopy(parent2)
 
             offspring1, offspring2 = crossover(parent1, parent2, genome_length)
+
             new_population.extend(
                 [
-                    mutate(offspring1, mutation_pool),
-                    mutate(offspring2, mutation_pool),
+                    mutate(offspring1, products_data),
+                    mutate(offspring2, products_data),
                 ]
             )
 
         population = new_population
+
         fitness_values = [fitness(genome) for genome in population]
 
     best_fitness = max(fitness_values)
+
     best_index = fitness_values.index(best_fitness)
+
     best_solution = [product["id"] for product in population[best_index]]
+
     return best_solution

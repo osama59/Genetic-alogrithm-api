@@ -1,0 +1,810 @@
+{
+    "user_profile": {
+        "Electronics": 37,
+        "Cleaning products": 26,
+        "Food": 14,
+        "Clothing": 23
+    },
+    "products": [
+        {
+            "id": 427,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 275,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 355,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 387,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 128,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 42,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 102,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 199,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 81,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 93,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 152,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 288,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 225,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 11,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 170,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 366,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 331,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 215,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 238,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 121,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 368,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 57,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 304,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 328,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 145,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 454,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 350,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 210,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 223,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 465,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 7,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 267,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 380,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 484,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 32,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 312,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 114,
+            "category": "Electronics",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 344,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 45,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 467,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 111,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 126,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 180,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 221,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 141,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 214,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 437,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 358,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 208,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 486,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 263,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 477,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 68,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 160,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 66,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 143,
+            "category": "Cleaning products",
+            "rating": 5,
+            "clicked": 1,
+            "viewd": 1,
+            "purchased": 0
+        },
+        {
+            "id": 154,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 222,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 239,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 115,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 402,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 162,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 356,
+            "category": "Cleaning products",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 333,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 301,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 445,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 459,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 391,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 452,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 255,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 226,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 265,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 262,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 379,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 236,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 26,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 33,
+            "category": "Food",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 59,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 229,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 183,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 103,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 412,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 378,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 375,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 475,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 247,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 404,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 447,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 487,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 175,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 419,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 453,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 294,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 369,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 113,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 373,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 490,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 196,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 280,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        },
+        {
+            "id": 218,
+            "category": "Clothing",
+            "rating": 0,
+            "clicked": 0,
+            "viewd": 0,
+            "purchased": 0
+        }
+    ]
+}
